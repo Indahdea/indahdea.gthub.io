@@ -1,1 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
+body{
+	background: #eee;
+	font-family: sans-serif;
+}
+
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.header{
+	color: white;
+	border: 1px solid #dedede;
+	padding: 10px;
+	margin-top: 20px;
+	background: #9E9AFB;
+	font-size: 25px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.left{
+	width: 300px;
+	border: 1px solid #dedede;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+
+.left ul{
+	list-style-type: none; 
+}
+
+.left ul li{
+	display: block;
+}
+
+.left ul li a{
+	display: block;
+	border-bottom: 1px solid #dedede;
+	margin-bottom: 10px;
+	padding: 10px 5px;
+	font color: #D3D2ED;
+}
+
+.right{
+	width: 650px;
+	border: 1px solid #dedede;
+	padding: 20px;
+	margin-top: 20px;
+	float: right;
+}
+
+.footer{
+	width: 100%;
+	border: 1px solid #dedede;
+	padding: 20px;
+	margin-top: 20px;
+	float: left;
+	background: #eee;
+	text-align: center;
+}
+
+
+
+img{
+	width: 100%;
+
+}
+
+@media screen and (max-width:1000px){
+	.container{
+		width: 100%;
+		background: white;
+	}
+	.left{
+		width: 30%;
+	}
+	.right{
+		width: 68%;
+	}
+}
+
+@media screen and (max-width:700px){
+
+	.left{
+		width: 100%;
+	}
+	.right{
+		width: 100%;
+	}
+}
